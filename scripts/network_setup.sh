@@ -7,7 +7,7 @@ SCRIPTDIR_V=$(
   pwd
 )
 
-source "${SCRIPTDIR_V}/init.sh"
+#source "${SCRIPTDIR_V}/init.sh"
 
 echo "Public Network setup"
 

@@ -10,3 +10,5 @@ SCRIPTDIR_V=$(
 source "${SCRIPTDIR_V}/init.sh"
 
 apt install bridge-utils qemu-kvm virtinst libvirt-daemon virt-manager -y
+
+source "${SCRIPTDIR_V}/network_setup.sh"
