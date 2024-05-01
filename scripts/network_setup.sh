@@ -22,3 +22,14 @@ echo "Private Network setup"
 
 f_ez_sed "<N_OKD_LAN>" "$N_OKD_LAN" "$SCRIPTDIR_V/okd_private_network.xml" 1
 f_ez_sed "<OKD_LAN_24>" "$OKD_LAN_24" "$SCRIPTDIR_V/okd_private_network.xml" 1
+
+virsh net-define "$SCRIPTDIR_V/okd_public_network.xml"
+virsh net-autostart "$N_INT_LAN"
+virsh net-start "$N_INT_LAN"
+virsh net-define "$SCRIPTDIR_V/okd_private_network.xml"
+virsh net-autostart "$N_OKD_LAN"
+virsh net-start "$N_OKD_LAN"
+virsh net-list --all
+
+
+
