@@ -11,7 +11,7 @@ SCRIPTDIR_V=$(
 # The domain for the OpenShift (OKD) cluster.
 # IMPORTANT: The domain used to install the cluster CANNOT BE CHANGED! See documentation!
 # By Questor
-OKD_DOMAIN="domain.abc"
+OKD_DOMAIN="massuite.online"
 
 N_INT_LAN="N_INT_LAN"
 INT_LAN_24="10.2.0"

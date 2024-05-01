@@ -31,5 +31,7 @@ virsh net-autostart "$N_OKD_LAN"
 virsh net-start "$N_OKD_LAN"
 virsh net-list --all
 
+rm -rf "$SCRIPTDIR_V/okd_private_network.xml"
+rm -rf "$SCRIPTDIR_V/okd_private_network.xml"
 
 
