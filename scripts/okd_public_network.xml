@@ -1,0 +1,10 @@
+<network>
+	<name>N_INT_LAN</name>
+		<bridge name="N_INT_LAN" />
+			<forward mode="nat"  dev='en01'/>
+				<ip address="10.2.0.1" netmask="255.255.255.0">
+	        <dhcp>
+			<range start="10.2.0.2" end="10.2.0.254"/>
+    	    </dhcp>
+        </ip>
+</network>

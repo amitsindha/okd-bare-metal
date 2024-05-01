@@ -1,6 +1,6 @@
 <network>
-	<name>N_OKD_LAN</name>
-		<bridge name="N_OKD_LAN"/>
-		<ip address="10.3.0.1" netmask="255.255.255.0">
+	<name><N_OKD_LAN></name>
+		<bridge name="<N_OKD_LAN>"/>
+			<ip address="<OKD_LAN_24>.1" netmask="255.255.255.0">
     </ip>
 </network>
